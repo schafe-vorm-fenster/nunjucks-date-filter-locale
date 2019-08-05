@@ -4,11 +4,8 @@
   "description": "Date filter for nunjucks using momentjs date format functions including locale support.",
   "main": "src/index.js",
   "scripts": {
-    "pretest:ci": "echo 'PRETEST' && greenkeeper-lockfile-update",
-    "posttest:ci": "echo 'POSTTEST' && greenkeeper-lockfile-upload",
     "lint": "semistandard --verbose | snazzy",
     "test": "jest --coverage",
-    "test:ci": "jest --coverage --ci --runInBand",
     "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "jest": {
@@ -37,7 +34,6 @@
     "commitizen": "*",
     "coveralls": "*",
     "cz-conventional-changelog": "*",
-    "greenkeeper-lockfile": "^1.x",
     "jest": "*",
     "jest-junit": "*",
     "semistandard": "*",

@@ -2,7 +2,7 @@
 var nunjucks = require('nunjucks');
 
 // Import the plugin
-var nunjucksDate = require('nunjucks-date');
+var nunjucksDate = require('nunjucks-date-filter-locale');
 var moment = require('moment');
 
 // Define a custom default date format. Any valid format works.
