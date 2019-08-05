@@ -13,7 +13,7 @@ Date filter for nunjucks using momentjs date format functions including locale s
 npm nunjucks-date-filter-locale --save
 ```
 
-## Usage
+## Config
 
 ```js
 // Import the plugin
@@ -52,4 +52,19 @@ The above is eqivalent to
 
 ```js
 env.addFilter("date", require("nunjucks-date-filter-locale"));
+```
+
+## Usage
+
+
+Simply format a date:
+
+```nunjucks
+{% set today = now | date("YYYY-MM-DD") %}
+```
+
+Calculate a date:
+
+```nunjucks
+{% set tomorrow = now | date("YYYY-MM-DD","add",1,"days") %}
 ```
