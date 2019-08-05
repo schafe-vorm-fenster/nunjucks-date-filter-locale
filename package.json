@@ -1,35 +1,42 @@
 {
-  "name": "nunjucks-date-filter-locale",
-  "version": "1.4.1",
-  "description": "Date filter for nunjucks using momentjs date format functions including locale support.",
-  "main": "src/index.js",
-  "scripts": {
-    "lint": "semistandard --verbose | snazzy",
-    "test": "jest --coverage",
-    "coverage": "cat ./coverage/lcov.info | coveralls"
+  "_from": "nunjucks-date-filter-locale",
+  "_id": "nunjucks-date-filter-locale@1.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-rrhwGJ/n7csiLiFN16U3f1UN1bn0pKW3X39E0vDVHhQzfImgxdmKwmZtXNQ/l/QfRsjwDDlhrVABkFPIFYA2wA==",
+  "_location": "/nunjucks-date-filter-locale",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nunjucks-date-filter-locale",
+    "name": "nunjucks-date-filter-locale",
+    "escapedName": "nunjucks-date-filter-locale",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "jest": {
-    "collectCoverage": true,
-    "coverageReporters": [
-      "json",
-      "html"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/schafevormfenster/nunjucks-date-filter-locale.git"
-  },
-  "tonicExampleFilename": "example/example.js",
-  "keywords": [
-    "nunjucks",
-    "date"
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
   ],
-  "author": "techmsi, Jan-Henrik Hempel",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/nunjucks-date-filter-locale/-/nunjucks-date-filter-locale-1.4.1.tgz",
+  "_shasum": "265285e83615fdcbc1709ce32b5583ef8b95c8ff",
+  "_spec": "nunjucks-date-filter-locale",
+  "_where": "/Users/jan/Websites/showcase-schlatkow",
+  "author": {
+    "name": "techmsi, Jan-Henrik Hempel"
+  },
   "bugs": {
     "url": "https://github.com/techmsi/nunjucks-date/issues"
   },
-  "homepage": "https://github.com/schafevormfenster/nunjucks-date-filter-locale",
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "*",
+    "moment-timezone": "^0.5.26",
+    "nunjucks": "^3.x"
+  },
+  "deprecated": false,
+  "description": "Date filter for nunjucks using momentjs date format functions including locale support.",
   "devDependencies": {
     "commitizen": "*",
     "coveralls": "*",
@@ -39,8 +46,30 @@
     "semistandard": "*",
     "snazzy": "*"
   },
-  "dependencies": {
-    "moment": "*",
-    "nunjucks": "^3.x"
-  }
+  "homepage": "https://github.com/schafevormfenster/nunjucks-date-filter-locale",
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  },
+  "keywords": [
+    "nunjucks",
+    "date"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "nunjucks-date-filter-locale",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schafevormfenster/nunjucks-date-filter-locale.git"
+  },
+  "scripts": {
+    "coverage": "cat ./coverage/lcov.info | coveralls",
+    "lint": "semistandard --verbose | snazzy",
+    "test": "jest --coverage"
+  },
+  "tonicExampleFilename": "example/example.js",
+  "version": "1.4.2"
 }

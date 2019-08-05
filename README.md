@@ -27,6 +27,9 @@ nunjucksDate.setDefaultFormat("MMMM Do YYYY, h:mm:ss a");
 // Define a custom locale.
 nunjucksDate.setLocale('de_DE');
 
+// Define a custom timezone.
+nunjucksDate.setTimezone('Europe/Berlin');
+
 // Initialize your Nunjucks enironment
 var env = new nunjucks.Environment();
 ```
